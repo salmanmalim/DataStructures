@@ -14,5 +14,26 @@
 
 
 
-public class LinkedList {
+public class LinkedList extends List {
+
+
+    public LinkedList(int val){
+
+      super(val);
+
+    }
+
+
+
+    public boolean findcycle(){
+
+        return false;
+    }
+
+    public void clear(){
+
+
+    }
+
+
 }
